@@ -9,8 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#include "keymap_portuguese.h"
-
 #define DEFAULT 0
 #define MEDIA   1
 #define NAV     2
