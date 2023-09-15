@@ -9,6 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#include "keymap_portuguese.h"
+
 #define DEFAULT 0
 #define MEDIA   1
 #define NAV     2
@@ -93,7 +95,7 @@
                 sym_layer {
                         bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-     &trans          &kp LBRC        &kp AMPS        &kp STAR        &kp LPAR        &kp RBRC          &none           &none           &none           &none           &none           &trans
+     &trans          &kp PT_LCBR     &kp AMPS        &kp STAR        &kp LPAR        &kp PT_RCBR       &none           &none           &none           &none           &none           &trans
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
      &trans          &kp COLON       &kp DLLR        &kp PRCNT       &kp CARET       &kp PLUS          &none           &kp LSHIFT      &kp LCTRL       &kp LALT        &kp LGUI        &trans
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
