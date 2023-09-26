@@ -16,6 +16,11 @@
 #define NUM     3
 #define FN      4
 
+// Make layer tap keys repeateable on double tap:
+&lt {
+    quick-tap-ms = <200>;
+};
+
 /*
 ╭───────────────╮
 | (a)       (b) |
@@ -46,10 +51,6 @@
                         global-quick-tap;
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
-                };
-
-                &lt {
-                    quick-tap-ms = <200>;
                 };
         };
 
