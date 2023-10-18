@@ -89,11 +89,11 @@
                 nav_layer {
                         bindings = <
 // ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮ ╭───────────────┬───────────────┬───────────────┬───────────────┬───────────────┬───────────────╮
-     &trans          &none           &none           &none           &none           &kp PSCRN         &none           &none           &none           &none           &none           &trans
+     &trans          &none           &none           &none           &none           &kp PSCRN         &kp CAPSLOCK    &kp INSERT      &none           &none           &none           &trans
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-     &trans          &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHIFT      &kp SLCK          &kp CAPSLOCK    &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &trans
+     &trans          &kp LGUI        &kp LALT        &kp LCTRL       &kp LSHIFT      &kp SLCK          &kp LEFT        &kp DOWN        &kp UP          &kp RIGHT       &none           &trans
 // ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┼───────────────┼───────────────┤
-     &trans          &none           &none           &none           &none           &kp PAUSE_BREAK   &kp INSERT      &kp HOME        &kp PG_DN       &kp PG_UP       &kp END         &trans
+     &trans          &none           &none           &none           &none           &kp PAUSE_BREAK   &kp HOME        &kp PG_DN       &kp PG_UP       &kp END         &none           &trans
 // ╰───────────────┴───────────────┴───────────────┼───────────────┼───────────────┼───────────────┤ ├───────────────┼───────────────┼───────────────┼───────────────┴───────────────┴───────────────╯
                                                      &none           &none           &none             &kp RET         &kp BSPC        &kp DEL
 //                                                 ╰───────────────┴───────────────┴───────────────╯ ╰───────────────┴───────────────┴───────────────╯
