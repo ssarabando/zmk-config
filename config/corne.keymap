@@ -41,6 +41,22 @@
 (i) Unused (maybe future Macro layer)
 */
 
+/* *************************
+** NOTE ABOUT EXTERNAL POWER
+**
+** `ext_power EP_OFF` will have VISIBLE effects immediately but
+** `ext_power EP_ON` WILL NOT.
+** See https://github.com/zmkfirmware/zmk/issues/674#issuecomment-1030611235
+** for details but, in summary, `CONFIG_ZMK_SETTINGS_SAVE_DEBOUNCE` must pass
+** to allow the ON setting to be written to the flash memory and then we must
+** turn the board off and on again.
+** In my case (Nice!Nano v2 with OLEDs) I must enter bootloader mode by
+** clicking the reset button twice and then resetting by clicking the reset
+** button once.
+** That will restart the main half with the OLED turned ON.
+** Then reset the satellite half and it too will restart with the OLED ON.
+*/
+
 / {
         behaviors {
                 hm: homerow_mods {
