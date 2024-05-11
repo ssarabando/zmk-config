@@ -22,9 +22,11 @@
     quick-tap-ms = <200>;
 };
 
-// Make mod tap keys repeateable on double tap:
 &mt {
+    // Make mod tap keys repeateable on double tap:
     quick-tap-ms = <200>;
+    // Make mod tap keys not fire when fast typing:
+    require-prior-idle-ms = <125>;
 };
 
 /*
