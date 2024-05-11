@@ -22,6 +22,11 @@
     quick-tap-ms = <200>;
 };
 
+// Make mod tap keys repeateable on double tap:
+&mt {
+    quick-tap-ms = <200>;
+}
+
 /*
 ╭───────────────╮
 | (a)       (b) |
