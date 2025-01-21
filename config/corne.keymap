@@ -78,6 +78,12 @@
             key-positions = <38 39>;
             layers = <5>;
         };
+
+        toGaming {
+            bindings = <&to 5>;
+            key-positions = <38 39>;
+            layers = <0>;
+        };
     };
 
     keymap {
