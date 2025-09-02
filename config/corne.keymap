@@ -76,7 +76,7 @@
         combo_toggle_gaming {
           bindings = <&tog 5>;
           key-positions = <38 39>;
-        }
+        };
         /* toBase { */
         /*     bindings = <&to 0>; */
         /*     key-positions = <38 39>; */
